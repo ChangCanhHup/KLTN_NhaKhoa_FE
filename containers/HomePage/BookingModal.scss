@@ -1,0 +1,106 @@
+.booking-modal {
+    .modal-dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; // Đảm bảo modal luôn ở giữa màn hình
+        margin: 0; // Loại bỏ khoảng trống mặc định của Bootstrap
+    }
+
+    .modal-content {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        width: 90%;
+        max-width: 800px;
+        margin: auto; // Đảm bảo modal căn giữa
+    }
+
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        h5 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #000;
+
+            &:hover {
+                color: #ff0000;
+            }
+        }
+    }
+
+    .form-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        .react-select__control {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+
+            &:focus {
+                outline: none;
+                border-color: #007bff;
+            }
+        }
+
+        textarea {
+            resize: none;
+        }
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+
+            &:first-child {
+                background-color: #007bff;
+                color: #fff;
+                margin-right: 10px;
+
+                &:hover {
+                    background-color: #0056b3;
+                }
+            }
+
+            &:last-child {
+                background-color: #ccc;
+
+                &:hover {
+                    background-color: #bbb;
+                }
+            }
+        }
+    }
+}

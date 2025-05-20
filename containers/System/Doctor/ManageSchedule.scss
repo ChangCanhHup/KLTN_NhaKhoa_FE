@@ -1,0 +1,74 @@
+.manage-schedule-container {
+  .m-s-title {
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .pick-hour-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    button {
+      padding: 5px 15px;
+      border: 1px solid gray;
+    }
+  }
+
+  .btn-schedule {
+    &.active {
+      background-color: orange;
+    }
+  }
+
+  .btn-save-schedule {
+    margin-top: 20px;
+  }
+
+  .patient-info-container {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+
+    h5 {
+      color: #0275d8;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+
+      label {
+        font-weight: 500;
+        margin-bottom: 5px;
+
+        .text-danger {
+          color: #dc3545;
+        }
+      }
+    }
+  }
+
+  .form-check {
+    margin-top: 10px;
+
+    .form-check-input {
+      cursor: pointer;
+    }
+
+    .form-check-label {
+      cursor: pointer;
+      font-weight: 500;
+      margin-left: 5px;
+    }
+  }
+}

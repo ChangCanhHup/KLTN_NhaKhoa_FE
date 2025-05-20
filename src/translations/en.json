@@ -1,0 +1,260 @@
+{
+  "homeheader": {
+    "speciality": "Dental Specialty",
+    "searchdoctor": "Find a dentist by specialty",
+    "health-facility": "Dental Facilities",
+    "select-room": "Choose a dental clinic",
+    "doctor": "Dentist",
+    "select-doctor": "Choose a skilled dentist",
+    "fee": "Dental care package",
+    "check-health": "General dental check",
+    "support": "Support",
+    "welcome": "Welcome, "
+  },
+  "banner": {
+    "title1": "DENTAL PLATFORM",
+    "title2": "COMPREHENSIVE DENTAL CARE",
+    "child1": "Specialist Dental Examination",
+    "child2": "Remote Dental Consultation",
+    "child3": "General Dental Examination",
+    "child4": "Teeth Whitening Services",
+    "child5": "Orthodontics",
+    "child6": "Dental Implant Services",
+    "search": "Find a dental specialty"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "User System",
+      "manage-doctor": "Manage Dentists",
+      "doctor-name": "Dentist",
+      "manage-admin": "Manage Admins",
+      "crud": "CRUD User",
+      "crud-redux": "CRUD Redux",
+      "clinic": "Dental Clinics",
+      "manage-clinic": "Manage Dental Clinics",
+      "specialty": "Dental Specialties",
+      "manage-specialty": "Manage Dental Specialties",
+      "handbook": "Handbook",
+      "manage-handbook": "Manage Handbook"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Dentist's Schedule",
+      "manage-patient": "Manage Dentist's Patients"
+    }
+  },
+  "manage-user": {
+    "add": "Add a new user",
+    "email": "Email",
+    "password": "Password",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone Number",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Role",
+    "image": "Avatar",
+    "save": "Save User",
+    "edit": "Edit User",
+    "title": "Manage User",
+    "update-profile": "Update Profile",
+    "upload": "Upload",
+    "choose-gender": "Choose Gender",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "title-create-user": "Create User",
+    "title-edit-user": "Edit User",
+    "btn-update": "Update",
+    "btn-create": "Create",
+    "edit-password": "Edit Password",
+    "current-password": "Current Password",
+    "new-password": "New Password",
+    "confirm-password": "Confirm Password",
+    "status": "Status",
+    "restore-user": "Restore User"
+  },
+  "profile-setting": {
+    "my-account": "My Account",
+    "name": "Name",
+    "gender": "Gender",
+    "phone": "Phone",
+    "address": "Address",
+    "password": "Password",
+    "btn-edit-profile": "Edit Profile",
+    "breadcrumb-home": "Home",
+    "breadcrumb-settings": "Settings",
+    "profile": "Profile",
+    "medical-history": "Dental History"
+  },
+  "homepage": {
+    "outstanding-doctor": "Last Week's Featured Dentist",
+    "outstanding-medical-facility": "Outstanding Dental Facilities",
+    "more-infor": "More Information",
+    "specialty-popular": "Popular Dental Specialties",
+    "media-talk-about-huynh-minh-duc": "Media",
+    "media-talk-about-huynh-minh-duc-content": "With many years of experience, we are committed to providing high-quality dental services and comprehensive oral health care.",
+    "footer-infor": "Huynh Vo Tuan Linh. For more information, please visit my Facebook",
+    "footer-infor-click-here": "Click Here"
+  },
+  "menu-homeheader": {
+    "homepage": "Homepage",
+    "login": "Login",
+    "forgot-password": "Forgot Password",
+    "sign-up": "Sign Up",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "manage-schedule": {
+    "title": "Manage Dentist's Schedule",
+    "choose-doctor": "Choose Dentist",
+    "choose-date": "Choose Date",
+    "save": "Save Information"
+  },
+  "patient": {
+    "detail-doctor": {
+      "schedule": "Schedule",
+      "no-schedule": "The dentist does not have an appointment at this time, please choose another time",
+      "choose": "Choose ",
+      "book-free": " and book (free)"
+    },
+    "extra-infor-doctor": {
+      "text-address": "CLINIC ADDRESS",
+      "price": "Examination Price:",
+      "detail": "See Details",
+      "payment": "The patient can pay in the following forms:",
+      "hide-price": "Hide Price List"
+    },
+    "booking-modal": {
+      "title": "Information to Book a Dental Appointment",
+      "patientName": "Patient Name",
+      "phoneNumber": "Phone Number",
+      "email": "Email",
+      "address": "Address",
+      "reason": "Reason for Dental Check",
+      "birthday": "Date of Birth",
+      "gender": "Gender",
+      "btnConfirm": "Confirm",
+      "btnCancel": "Cancel",
+      "priceBooking": "Free Booking",
+      "price": "Price: "
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Manage Dentist Information",
+      "update-title": "Update Dentist Information",
+      "select-doctor": "Select Dentist",
+      "intro": "Introduction",
+      "add": "Create Information",
+      "save": "Save Information",
+      "price": "Consultation Fee",
+      "payment": "Payment",
+      "province": "Province",
+      "nameClinic": "Clinic Name",
+      "hospital": "Dental Hospital",
+      "addressClinic": "Clinic Address",
+      "note": "Note",
+      "specialty": "Dental Specialty",
+      "select-clinic": "Select Clinic",
+      "name": "Name",
+      "position": "Position",
+      "specialty-head": "Dental Specialty"
+    },
+    "manage-drug": {
+      "title": "Manage Dental Drugs",
+      "create-drugs": "Create Dental Drugs",
+      "name-drug": "Drug Name",
+      "enter-name-drug": "Enter Drug Name",
+      "create": "Create",
+      "edit-drug": "Edit Dental Drugs",
+      "update": "Update",
+      "create-prescription": "Create Prescription",
+      "email-patient": "Patient Email",
+      "name-patient": "Patient Name",
+      "drug-list": "Drug List",
+      "prescription": "Prescription",
+      "more-descriptive-information": "More Descriptive Information",
+      "btn-create": "Create"
+    },
+    "manage-clinic": {
+      "title-create": "Add Dental Clinic",
+      "title-edit": "Edit Dental Clinic",
+      "hospital-name": "Dental Clinic Name",
+      "hospital-avatar": "Dental Clinic Avatar",
+      "hospital-address": "Dental Clinic Address",
+      "name": "Name",
+      "image": "Image",
+      "address": "Address"
+    },
+    "manage-specialty": {
+      "manage-specialty": "Manage Dental Specialties",
+      "title-create": "Add Dental Specialty",
+      "specialty-name": "Dental Specialty Name",
+      "specialty-avatar": "Dental Specialty Avatar",
+      "title-edit": "Edit Dental Specialty",
+      "image": "Image",
+      "name": "Name"
+    }
+  },
+  "manage-patient": {
+    "title": "MANAGE DENTAL PATIENTS",
+    "choose-date": "Choose Appointment Date",
+    "examination-time": "Examination Time",
+    "patient-name": "Patient Name",
+    "address": "Address",
+    "phone-number": "Phone Number",
+    "gender": "Gender",
+    "reason": "Reason for Visit",
+    "actions": "Actions",
+    "send-prescriptions": "Send Prescriptions",
+    "create-prescriptions": "Create Prescriptions",
+    "cancel": "Cancel",
+    "prescription": "Prescription",
+    "view": "View",
+    "send-prescriptions-to-patients": "Send Prescriptions to Patients",
+    "email-patient": "Patient Email",
+    "select-the-prescription-file": "Select the Prescription File",
+    "there-is-a-pre-created-prescription-file": "A Pre-Created Prescription File Exists",
+    "choose-other-file": "Choose Another File",
+    "send": "Send",
+    "download": "Download"
+  },
+  "medical-history": {
+    "title": "Dental History",
+    "filters": "Filters",
+    "from-date": "From Date",
+    "to-date": "To Date",
+    "apply": "Apply",
+    "reset": "Reset",
+    "date-examination": "Date of Visit",
+    "reason": "Reason",
+    "doctor": "Dentist",
+    "prescription": "Prescription",
+    "doctor-advice": "Dentist Advice",
+    "receipt": "Receipt"
+  },
+  "admin-dashboard": {
+    "dashboard": {
+      "greeting": "Hi, Welcome Back",
+      "weekly-revenue": "Weekly Revenue",
+      "new-users": "New Patients",
+      "total-health-appointment-done": "Total Successful Dental Appointments",
+      "total-doctors": "Total Dentists",
+      "top-3-doctors-with-the-highest-revenue-of-the-year": "Top 3 Dentists with the Highest Revenue of the Year",
+      "top-4-vip-patients": "Top 4 VIP Patients",
+      "monthly-revenue-specialty": "Monthly Revenue by Dental Specialty"
+    }
+  },
+  "login": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "forgot-password": "Forgot Password",
+    "sign-up": "Sign Up",
+    "or-login-with": "Or Login With",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "address": "Address",
+    "retrieve": "Retrieve"
+  }
+}

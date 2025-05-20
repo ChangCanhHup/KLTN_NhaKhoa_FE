@@ -1,0 +1,297 @@
+.home-header-container {
+  box-shadow: 0px 0px 16px #C0C0C0;
+  height: 60px;
+  width: 100%;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1200 !important;
+
+  .home-header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .left-content {
+      width: 20%;
+      display: flex;
+      align-items: center;
+
+      .header-logo {
+        background: url("../../assets/logo.png") left center no-repeat;
+        height: 48px;
+        width: 150px;
+        cursor: pointer;
+        // transform: scale(0.5, 0.5);
+        // margin-left: -56px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      i {
+        font-size: 25px;
+        color: grey;
+        cursor: pointer;
+      }
+    }
+
+    .center-content {
+      width: 55%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .child-content {
+        .subs-title {
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .right-content {
+      width: 25%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .support {
+        padding-right: 50px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        i {
+          font-size: 15px;
+          margin-right: 5px;
+        }
+      }
+
+      .language-vi {
+        opacity: 0.2;
+        cursor: pointer;
+
+        &.active {
+          opacity: 1;
+
+          span {
+            color: orange;
+          }
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      .language-en {
+        margin: 0 10px;
+        opacity: 0.2;
+        cursor: pointer;
+
+        &.active {
+          opacity: 1;
+
+          span {
+            color: blue;
+          }
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.book-appointment-header {
+  display: flex;
+  align-items: center;
+  background-color: #007bff; // Màu nền xanh
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 35px;
+
+  i {
+    margin-right: 5px;
+  }
+
+  &:hover {
+    background-color: #007bff; // Màu nền khi hover
+  }
+}
+
+.search-and-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; // Khoảng cách giữa ô tìm kiếm và button
+
+  .search {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #f7d800;
+
+    i {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+
+    input {
+      height: 35px;
+      width: 360px;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+  }
+
+  .book-appointment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    i {
+      margin-right: 8px;
+      font-size: 18px;
+    }
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.home-header-banner {
+  // background: url('https://nhantamsmile.vn/wp-content/uploads/2023/07/banner-nhan-tam-smile-1.jpg');
+  background: url('https://i.postimg.cc/j2N94nhr/logo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+
+  .content-up {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+    height: 65%;
+    padding-top: 15px;
+
+    .title1 {
+      text-align: center;
+      font-size: 45px;
+      color: #fff;
+      text-shadow: 1px 1px 1px #333;
+      margin-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    .title2 {
+      text-align: center;
+      font-size: 45px;
+      color: #fff;
+      text-shadow: 1px 1px 1px #333;
+      margin-bottom: 15px;
+    }
+
+    .search {
+      text-align: center;
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      align-items: center;
+      padding: 10px;
+      border-radius: 25px;
+      background-color: #f7d800;
+
+      i {
+        margin: 0 5px;
+      }
+
+      input {
+        height: 30px;
+        width: 360px;
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+
+  .content-down {
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+    .options {
+      display: flex;
+      text-align: center;
+      gap: 50px;
+      justify-content: center;
+
+      .option-child {
+        width: 135px;
+        padding: 5px 10px;
+
+        .icon-child {
+          background: white;
+          width: 70px;
+          height: 70px;
+          padding: 17px;
+          border-radius: 50%;
+          margin: 0 auto;
+          text-align: center;
+
+          i {
+            font-size: 30px;
+            color: #49bce2;
+          }
+        }
+
+        .text-child {
+          font-size: 20px;
+          font-weight: 500;
+          cursor: pointer;
+
+          &:hover {
+            color: #49bce2;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.avatar-profile {
+  min-height: 52px;
+  min-width: 52px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

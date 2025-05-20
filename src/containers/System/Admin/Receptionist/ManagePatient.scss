@@ -1,0 +1,123 @@
+div._loading_overlay_wrapper {
+  position: unset;
+
+  ._loading_overlay_overlay {
+    z-index: 1000000;
+  }
+}
+
+.search-add-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.2s ease-in-out;
+
+    &:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+  }
+
+  .search-btn {
+    background-color: #007bff;
+  }
+
+  .add-btn {
+    background-color: #28a745;
+  }
+}
+
+.manage-patient-container {
+  border-radius: 8px;
+
+  .m-p-title {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .manage-patient-body {
+
+    .table-manage-patient {
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f4f4f4;
+        color: #333;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+
+      td {
+        font-size: 14px;
+        color: #555;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+
+
+      .mp-btn-confirm {
+        background-color: #ffa500;
+        color: #fff;
+      }
+
+      .mp-btn-cancel {
+        background-color: #ff4d4f;
+        color: #fff;
+      }
+
+      .mp-btn-update {
+        background-color: #1890ff;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.preview-image {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background: center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
